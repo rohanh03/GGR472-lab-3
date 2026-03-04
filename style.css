@@ -1,0 +1,113 @@
+/* Reset & Base */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* Map container */
+#map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Panel card aesthetics */
+#filter-panel {
+    position: fixed;
+    background: white;
+    border-radius: 8px;
+    padding: 14px 16px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Filter Panel: top-left - positioning and layout */
+#filter-panel {
+    top: 10px;
+    left: 10px;
+    max-height: calc(100vh - 30px);
+    overflow-y: auto;
+    width: 230px;
+}
+
+#filter-panel h3 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+/* Section label above each group of checkboxes */
+.panel-label {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #888;
+    margin: 10px 0 6px;
+}
+
+/* Each checkbox row */
+.filter-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+.filter-row input[type="checkbox"] {
+    cursor: pointer;
+    accent-color: #444;
+}
+
+/* Colored circle swatch next to checkbox label */
+.swatch-circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+/* Colored line swatch for routes */
+.swatch-line {
+    width: 20px;
+    height: 4px;
+    border-radius: 2px;
+    flex-shrink: 0;
+}
+
+/*  Popup badge for category label */
+.popup-category {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 6px;
+}
+
+/* Popup content container */
+.popup-content h3 {
+    font-size: 14px;
+    margin-bottom: 4px;
+    color: #111;
+}
+
+.popup-content p {
+    font-size: 12px;
+    color: #555;
+    line-height: 1.5;
+}

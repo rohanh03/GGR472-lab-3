@@ -1,0 +1,185 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gateway of India",
+        "category": "Heritage",
+        "description": "Iconic arch monument built during the British Raj, overlooking Mumbai Harbour."
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8347, 18.9220] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chhatrapati Shivaji Maharaj Terminus",
+        "category": "Heritage",
+        "description": "UNESCO World Heritage Site and historic railway terminus blending Victorian Gothic and Indian architecture."
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8354, 18.9402] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Elephanta Caves",
+        "category": "Heritage",
+        "description": "UNESCO-listed cave temples on Elephanta Island, dedicated to Lord Shiva, dating to the 5th–8th centuries."
+      },
+      "geometry": { "type": "Point", "coordinates": [72.9315, 18.9633] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Haji Ali Dargah",
+        "category": "Heritage",
+        "description": "Mosque and dargah built on an islet off Worli coast, accessible via a narrow causeway at low tide."
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8089, 18.9827] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dhobi Ghat",
+        "category": "Heritage",
+        "description": "World's largest open-air laundry, where thousands of washermen have worked for over a century."
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8375, 18.9611] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Crawford Market",
+        "category": "Market",
+        "description": "Historic wholesale market for fruits, vegetables, and spices in a Norman-Gothic style building."
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8356, 18.9483] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dharavi",
+        "category": "Market",
+        "description": "One of Asia's largest informal settlements, known for its thriving small industries including leather and pottery."
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8538, 19.0424] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Linking Road",
+        "category": "Market",
+        "description": "Bandra's famous shopping street lined with street stalls and branded stores selling clothes and accessories."
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8299, 19.0612] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fashion Street",
+        "category": "Market",
+        "description": "Budget street market near Azad Maidan selling trendy clothes, footwear, and accessories at low prices."
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8361, 18.9371] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chor Bazaar",
+        "category": "Market",
+        "description": "Mumbai's famous antique market, also known as Thieves Market, selling vintage goods and curiosities."
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8275, 18.9614] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sanjay Gandhi National Park",
+        "category": "Nature",
+        "description": "Large protected forest within city limits, home to leopards, ancient Buddhist caves, and the Kanheri Caves."
+      },
+      "geometry": { "type": "Point", "coordinates": [72.9088, 19.2167] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mahim Nature Park",
+        "category": "Nature",
+        "description": "Urban biodiversity hotspot on reclaimed land beside the Mahim Creek, with mangrove walks and bird watching."
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8376, 19.0375] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aarey Colony",
+        "category": "Nature",
+        "description": "Verdant green zone on the outskirts of Mumbai, part of which lies within SGNP's buffer area."
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8693, 19.1508] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Juhu Beach",
+        "category": "Beach",
+        "description": "Popular suburban beach famous for its evening food stalls, pav bhaji, and panoramic sunset views."
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8270, 19.0990] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Marine Drive",
+        "category": "Beach",
+        "description": "C-shaped seafront promenade along the Arabian Sea, nicknamed the Queen's Necklace for its arc of street lights."
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8231, 18.9437] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Versova Beach",
+        "category": "Beach",
+        "description": "Fishing village beach known for its citizen-led cleanup effort and vibrant coastal community."
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8101, 19.1199] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aksa Beach",
+        "category": "Beach",
+        "description": "Quiet, less-crowded beach in Malad West, popular for weekend picnics and water sports."
+      },
+      "geometry": { "type": "Point", "coordinates": [72.7960, 19.1800] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Siddhivinayak Temple",
+        "category": "Temple",
+        "description": "Revered Hindu temple dedicated to Lord Ganesha, one of the richest and most visited temples in Mumbai."
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8330, 19.0160] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mahalakshmi Temple",
+        "category": "Temple",
+        "description": "Coastal temple dedicated to Mahalakshmi, Mahakali, and Mahasaraswati, perched above the Arabian Sea."
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8339, 18.9808] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mumba Devi Temple",
+        "category": "Temple",
+        "description": "Ancient temple of the city's patron goddess Mumba Devi, after whom Mumbai is named."
+      },
+      "geometry": { "type": "Point", "coordinates": [72.8324, 18.9500] }
+    }
+  ]
+}

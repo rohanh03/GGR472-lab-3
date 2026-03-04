@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mumbai Interactive Map</title>
+
+    <!-- Mapbox GL JS -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.18.1/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.18.1/mapbox-gl.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Full-viewport map container -->
+    <div id="map"></div>
+
+    <!-- Filter Panel (top-left overlay) -->
+    <div id="filter-panel">
+        <h3>Mumbai Explorer + Legend</h3>
+
+        <!-- POI category checkboxes — populated dynamically in script.js -->
+        <p class="panel-label">Points of Interest</p>
+        <div id="poi-filters"></div>
+
+        <!-- Route checkboxes — populated dynamically in script.js -->
+        <p class="panel-label">Routes</p>
+        <div id="route-filters"></div>
+    </div>
+
+    <!-- POI data loaded before script.js so POI_DATA is available globally -->
+    <script src="mumbai-poi.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
